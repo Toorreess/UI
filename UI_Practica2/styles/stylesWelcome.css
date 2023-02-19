@@ -1,0 +1,53 @@
+@import url(commonStyles.css);
+
+div#menu {
+    background-image: url("../images/menu.png");
+    width: 520px;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+#logoCV:hover{
+    cursor: pointer;
+    outline: 1px solid black;
+}
+
+#logoCV{
+    display: block;
+    position: absolute;
+    width: 89px;
+    height: 118px;
+    top: 207px;
+    left: 350px;
+    border-radius: 5px;
+}
+
+#logoETSII:hover{
+    cursor: pointer;
+    outline: 1px solid black;
+}
+
+#logoETSII{
+    display: block;
+    position: absolute;
+    width: 230px;
+    height: 84px;
+    top: 325px;
+    left: 420px;
+    border-radius: 5px;
+}
+
+#logoUMA:hover{
+    cursor: pointer;
+    outline: 1px solid black;
+}
+
+#logoUMA{
+    display: block;
+    position: absolute;
+    width: 245px;
+    height: 93px;
+    top: 200px;
+    left: 490px;
+    border-radius: 5px;
+}

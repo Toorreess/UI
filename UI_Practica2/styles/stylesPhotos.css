@@ -1,0 +1,21 @@
+@import url(commonStyles.css);
+
+section#gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img {
+    text-align: center;
+    border: 1px solid blue;
+    margin: 2px;
+}
+
+.img img {
+    margin: 10px;
+}
+
+.img .desc {
+    width: 125px;
+    text-align: center;
+}

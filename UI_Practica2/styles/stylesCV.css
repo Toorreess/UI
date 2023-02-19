@@ -1,0 +1,27 @@
+@import url(commonStyles.css);
+
+h2#subheader {
+    background-color: aqua;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section#personalInfo img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+section#education {
+    clear: left;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-left: 10px;
+}
+
+span {
+    float: right;
+}

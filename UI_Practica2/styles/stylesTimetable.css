@@ -1,0 +1,58 @@
+@import url(commonStyles.css);
+
+#timetable {
+    border-collapse: collapse;
+}
+
+#timetable td{
+    text-align: center;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+thead#tHead {
+    background-color: dodgerblue;
+    color: white;
+}
+
+td.hora, td.blank, td.SE {
+    background-color: aquamarine;
+}
+
+td.english{
+    background-color: coral;
+}
+
+td.db {
+    background-color: pink;
+}
+
+td.networking {
+    background-color: rgb(208, 112, 249);
+}
+
+td.algorithmics {
+    background-color: yellow;
+}
+td.webTech {
+    background-color: green;
+}
+
+td.programming {
+    background-color: lightgreen;
+}
+
+td.sport {
+    background-color: greenyellow;
+}
+
+td.computerSys {
+    background-color: brown;
+}
+
+table#legend td:empty{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
